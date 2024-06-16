@@ -1,0 +1,6 @@
+@ApiGateway_HostAddress = http://localhost:5232
+
+GET {{ApiGateway_HostAddress}}/catalog-service/api/v1/products?PageNumber=1&PageSize=10
+Accept: application/json
+
+###
